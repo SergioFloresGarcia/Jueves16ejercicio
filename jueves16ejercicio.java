@@ -5,14 +5,14 @@ public class jueves16ejercicio {
 
     Scanner sc = new Scanner(System.in);
     System.out.println("Ingrese tu nombre");
-    String nombre =sc.nextLine();
+    String nombre = sc.nextLine();
     System.out.println("Hola " +nombre);
     System.out.println("Introduce un numero:");
     int numero = sc.nextInt();
 
     if(numero<= 10) {
         System.out.println("Hola "+nombre);
-        System.out.println("El numero que ingreso es nemor que 10");
+        System.out.println("El numero que ingreso es menor que 10");
 }else{
     System.out.println("Hola "+nombre);
     System.out.println("El numero que ingreso es mayor que 10");
